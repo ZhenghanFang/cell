@@ -8,6 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import defaultdict
 import torch.nn.functional as F
+from tqdm import tqdm
 
 from utils import (
     CellDataset,
@@ -74,7 +75,7 @@ def train_model(model, optimizer, scheduler, num_epochs=25):
 
     best_loss = 1e10
 
-    for epoch in range(num_epochs):
+    for epoch in tqdm(range(num_epochs)):
         print("Epoch {}/{}".format(epoch, num_epochs - 1))
         print("-" * 10)
 

@@ -1,0 +1,11 @@
+__pycache__
+data/*
+for_Justin
+week_*
+2_pytorch_*
+data_inspection.ipynb
+model_dataset.ipynb
+spots.csv
+test_patch.ipynb
+.DS_Store
+*.pth
