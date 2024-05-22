@@ -11,7 +11,7 @@ conda activate cell
 ```bash
 python train.py
 ```
-The trained model is saved as `checkpoint.pth`. The trained checkpoint is provided on [Google drive](https://drive.google.com/file/d/1CibEB6hrJ4l-9xpe06hh3YNfZrWHy3HB/view?usp=sharing). Training will take approx. 18 hours.
+The trained model will be saved as `checkpoint.pth`. Training will take approx. 18 hours. A trained checkpoint is provided on [Google drive](https://drive.google.com/file/d/1CibEB6hrJ4l-9xpe06hh3YNfZrWHy3HB/view?usp=sharing). 
 
 ## Test
 Run `test.ipynb`. 
